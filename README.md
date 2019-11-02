@@ -6,7 +6,7 @@ Which should be you.
 Blindly follow directions:
 ```bash
 cp bashrc  ~/.bashrc
-cp bash_profile  ~/.bash+profile
+cp bash_profile  ~/.bash_profile
 mkdir -p ~/.bash-files && cp -R bash-files/ ~/.bash-files
 ```
 
