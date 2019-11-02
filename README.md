@@ -1,6 +1,6 @@
 # bash-it
 
-Super-lightweight set of initialization scrupts for people who use bash.
+Super-lightweight set of initialization scripts for people who use bash.
 Which should be you.
 
 Blindly follow directions:
