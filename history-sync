@@ -1,0 +1,17 @@
+  # HISTORY SYNC AMONG TABS AND TERMINALS
+  # https://unix.stackexchange.com/questions/1288/preserve-bash-history-in-multiple-terminal-windows
+  export HISTSIZE=20000
+  export HISTFILESIZE=$HISTSIZE
+  export HISTCONTROL=ignorespace:ignoredups
+
+  _bash_history_sync() {
+    builtin history -a
+    HISTFILESIZE=$HISTSIZE
+    builtin history -c
+    builtin history -r
+  }
+
+  alias history-local='unset PROMPT_COMMAND &&  unset -f history'
+  alias history-global='export PROMPT_COMMAND=_bash_history_sync; history() { _bash_history_sync; builtin history "$@"; }'
+
+  history-global

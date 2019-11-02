@@ -1,0 +1,5 @@
+  git config --global user.email "carl@dragnon.com"
+  git config --global user.name "Carlton Schuyler"
+  git config --global branch.autosetuprebase always
+  alias gs='git status'
+  alias gap='git add -p'

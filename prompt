@@ -1,0 +1,3 @@
+  # Don't need user usually
+  alias userprompt='export PS1="\[\033[37m\]\D{%Y-%m-%d} \]\t \[\033[35m\]\u\[\033[m\]@\[\033[m\]\c 033e[33m\]\w\[\033[m\]\\$ "'
+  export PS1="\[\033[37m\]\D{%Y-%m-%d} \t \[\033[33m\]\w\[\033[m\]\$ "
