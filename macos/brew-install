@@ -1,0 +1,4 @@
+brew install grc
+brew install diffutils
+brew install docker-machine-driver-xhyve
+brew install gradle
