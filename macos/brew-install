@@ -2,3 +2,5 @@ brew install grc
 brew install diffutils
 brew cask install adoptopenjdk
 brew install gradle
+brew install jq
+brew install python
